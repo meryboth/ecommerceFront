@@ -1,5 +1,6 @@
 // src/App.js
 import React from 'react';
+import './styles/style.css';
 import './App.css';
 import ProductList from './components/ProductList';
 
