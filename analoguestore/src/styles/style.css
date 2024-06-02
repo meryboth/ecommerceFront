@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Estilos adicionales */
+body {
+  @apply bg-white text-text font-sans;
+}
+
+a {
+  @apply text-text hover:text-primary;
+}
+
+button {
+  @apply bg-primary text-secondary py-2 px-4 rounded;
+}
+
+
+.product-image {
+  @apply w-full h-auto;
+}
+
+.product-title {
+  @apply text-xl text-primary;
+}
+
+.product-price {
+  @apply text-lg text-muted;
+}
+
+.product-summary {
+  @apply text-sm text-text;
+}

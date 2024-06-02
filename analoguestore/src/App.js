@@ -2,14 +2,13 @@
 import React from 'react';
 import './styles/style.css';
 import './App.css';
-import ProductList from './components/ProductList';
+import ProductList from './components/products/ProductList';
+import Header from './components/header/Header';
 
 function App() {
   return (
     <div className='App'>
-      <header>
-        <h1>Mi Tienda</h1>
-      </header>
+      <Header />
       <main>
         <ProductList />
       </main>
